@@ -123,8 +123,8 @@ body {
 }
 
 .circle {
-    height: 500px;
-    width: 500px;
+    height: 35vw;
+    width: 35vw;
     background-color: yellow;
     position: absolute;
     top: 20px;
@@ -166,8 +166,8 @@ body {
 }
 
 .circle2 {
-    height: 500px;
-    width: 500px;
+    height: 35vw;
+    width: 35vw;
     background-color: royalblue;
     position: absolute;
     bottom: 100px;
@@ -221,8 +221,8 @@ body {
 }
 
 .circle3 {
-    height: 500px;
-    width: 500px;
+    height: 35vw;
+    width: 35vw;
     background-color: coral;
     position: absolute;
     top: 20px;
@@ -262,8 +262,8 @@ body {
 }
 
 .circle4 {
-    height: 400px;
-    width: 400px;
+   height: 30vw;
+    width: 30vw;
     background-color: lightgreen;
     position: absolute;
     top: 100px;
@@ -635,6 +635,28 @@ label {
 
     .contbtn {
         margin: auto;
+    }
+
+    /* circles */
+
+    .circle {
+        height: 50vw;
+        width: 50vw;
+    }
+
+    .circle2 {
+        height: 50vw;
+        width: 50vw;
+    }
+
+    .circle3 {
+        height: 50vw;
+        width: 50vw;
+    }
+
+    .circle4 {
+        height: 40vw;
+        width: 40vw;
     }
 
 
