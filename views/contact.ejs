@@ -1,0 +1,16 @@
+<%- include(`heading`) -%>
+
+<div class="contForm">
+
+    <form action="/contact" method="post" class="formers">
+        <label for="text"> Your name: </label>
+        <input type="text" name="name" class="namers">
+        <label for="email"> Email: </label>
+        <input type="email" name="emailMan" class="mail">
+        <textarea name="msg" cols="100" rows="10" class="txt"> </textarea>
+        <button type="submit" class="contbtn"> Submit </button>    
+    </form>
+
+</div>
+
+<%- include(`footer`) -%>
