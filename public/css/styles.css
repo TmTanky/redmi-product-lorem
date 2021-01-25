@@ -659,9 +659,13 @@ label {
         width: 40vw;
     }
 
+}
 
+@media screen and (max-width: 500px) {
 
-
+    .contForm {
+        margin: 2rem 1rem;
+    }
 
 }
 

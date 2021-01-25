@@ -9,8 +9,8 @@ app.use(bodyParser.urlencoded({extended: true}))
 app.use(express.static(`public`))
 app.set(`view engine`, `ejs`)
 
-// mongoose.connect("mongodb://localhost:27017/productDB", {useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true });
-mongoose.connect(`mongodb+srv://TmAdmin:${process.env.PASSWORD}@cluster0.c7khy.mongodb.net/productDB`, {useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true });
+
+mongoose.connect(process.env.PRODUCT_DB, {useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true });
 
 const signUpSchema = new mongoose.Schema ({
     id: Number,
